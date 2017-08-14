@@ -1,0 +1,21 @@
+{
+  "name": "react-workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jshthornton/react-workshop.git",
+  "author": "Joshua Thornton <joshua.thornton@heg.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^3.2.4",
+    "ramda": "^0.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "reactcss": "^1.2.2",
+    "recompose": "^0.24.0"
+  }
+}
